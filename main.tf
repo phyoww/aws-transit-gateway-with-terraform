@@ -286,5 +286,5 @@ resource "aws_instance" "Cloudideastar-Svr2" {
 
 resource "aws_key_pair" "cloudideastar-keypair" {
   key_name   = "cloudideastar-keypair"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBoEkW95Ece9wZXd11diZwKrFIPbiCSMmvoDsvzlN0VG phyowaiwin@Fridayborns-MacBook-Pro.local" # put your public key here
+  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBoEkW95Ece9wZXd11diZwKrFIPbiCSMmvoDsvz" # put your public key here
 }
